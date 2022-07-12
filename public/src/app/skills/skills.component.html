@@ -1,0 +1,51 @@
+<div id="skills" data-sect="content">
+
+	<div class="skills-heading-con">
+		<p class="fs-primary-heading fw-bold text-accent-clr">Skills</p>
+		<p>What I'm capable of.</p>
+	</div>
+
+	<div class="skills-logo-con">
+
+		<div class="logo-con">
+			<div class="logo-card" *ngFor="let lang of skills">
+				<div class="logo-card-content-con">
+					<span class="blob"><img src="{{lang.logo}}" class="logo" /></span>
+					<p>{{lang.title}}</p>
+				</div>
+			</div>
+		</div>
+
+		<!--
+		<div class="logo-con">
+			<div class="logo-card" *ngFor="let lang of frontend">
+				<div class="logo-card-content-con">
+					<span class="blob"><img src="{{lang.logo}}" class="logo" /></span>
+					<p>{{lang.title}}</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="logo-con">
+			<div class="logo-card" *ngFor="let lang of backend">
+				<div class="logo-card-content-con">
+					<span class="blob"><img src="{{lang.logo}}" class="logo" /></span>
+					<p>{{lang.title}}</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="logo-con">
+			<div class="logo-card" *ngFor="let lang of tool">
+				<div class="logo-card-content-con">
+					<span class="blob"><img src="{{lang.logo}}" class="logo" /></span>
+					<p>{{lang.title}}</p>
+				</div>
+			</div>
+		</div>
+		-->
+
+	</div>
+
+</div>
+

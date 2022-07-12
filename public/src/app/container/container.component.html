@@ -1,0 +1,29 @@
+<div class="container">
+	<!--navigation-->
+	<div *ngIf="!loader && !error" class="navigation">
+		<app-nav></app-nav>
+	</div>
+	<!--content-->
+	<div *ngIf="!loader && !error" class="content">
+		<app-home [aboutme]="aboutme"></app-home>
+		<app-about [aboutme]="aboutme"></app-about>
+		<app-works [featuredProj]="featuredProj" [otherProj]="otherProj"></app-works>
+		<app-skills [skills]="skills"></app-skills>
+		<app-contact></app-contact>
+		<div class="footer">
+			<p class="fs-200">designed & built by lemuel k.(ohpxho) &copy; 2022</p>
+		</div>
+		
+	</div>
+
+	<div *ngIf="error">
+		<app-error [error]="error"></app-error>
+	</div>
+	
+
+	<app-loader *ngIf="loader && !error"></app-loader>
+	
+
+	<div id="particles-js" style="background-color: var(--clr-neutral)" class="particle-anim"></div>
+
+</div>

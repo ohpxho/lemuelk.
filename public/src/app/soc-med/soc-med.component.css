@@ -1,0 +1,14 @@
+.soc-med-con{
+	position: relative;
+	display: flex;
+}
+
+.soc-med-con a{
+	cursor: pointer;
+}
+
+.soc-med-con a:not(:first-child){
+	position: relative;
+	margin-left: 20px;
+}
+
