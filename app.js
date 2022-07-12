@@ -25,7 +25,7 @@ app.get('*', function(req, res, next) {
  res.sendFile(path.join(__dirname, 'public', 'dist/public', 'index.html'));
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
 	console.log(`Server Connection ${port}`);
 });
