@@ -136,7 +136,7 @@ div[id=contact]{
 }
 
 .bg-primary-clr{
-	vackground-color: var(--clr-neutral);
+	background-color: var(--clr-neutral);
 }
 
 .bg-accent-trans{

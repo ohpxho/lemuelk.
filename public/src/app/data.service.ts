@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { AboutMe, Skill, Project } from './custom-types';
+import { environment } from '../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
-	apiBaseUrl: string = 'http://localhost:3000/api';
+	apiBaseUrl: string = environment.apiBaseUrl;
 	fixedAbtId = '62c53b272536d06f04da07e2';
 
 	constructor(private http: HttpClient) { }

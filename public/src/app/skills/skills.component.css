@@ -41,7 +41,7 @@
 .logo-card-content-con{
 	display: flex;
 	flex-direction: column;
-	jsutify-content: center;
+	justify-content: center;
 	align-items: center;
 	gap: 1em;
 }

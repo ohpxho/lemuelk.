@@ -21,6 +21,10 @@
   "bugs": {
     "url": "https://github.com/ohpxho/lemuelk./issues"
   },
+  "engines": {
+    "node": ">=11.0.0",
+    "npm": ">=6.4.0"
+  },
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "debug": "^4.3.4",
