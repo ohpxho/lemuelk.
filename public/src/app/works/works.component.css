@@ -180,6 +180,7 @@
 	.proj-card{
 		flex-direction: column;
 		gap: 1em;
+		margin-bottom: 15px;
 	}
 
 	.proj-img-con{
@@ -188,6 +189,7 @@
 
 	.proj-headline-con{
 		text-align: center;
+		margin-bottom: 30px;
 	}
 
 	.othr-proj-headline-con{
@@ -209,6 +211,7 @@
 	.proj-card{
 		flex-direction: column;
 		gap: 1em;
+		margin-bottom: 15px;
 	}
 
 	.proj-img-con{

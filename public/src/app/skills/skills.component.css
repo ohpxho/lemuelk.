@@ -88,11 +88,16 @@
 	.logo-con{
 		grid-template-columns: repeat(3, 1fr);
 	}
+
+	.skills-logo-con{
+		padding: 0;
+	}
 }
 
 @media(min-width: 576px){
-	
-
+	.logo-con{
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 @media(min-width: 900px){

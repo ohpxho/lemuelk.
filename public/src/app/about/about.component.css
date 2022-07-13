@@ -65,6 +65,9 @@
 		width: 100%;
 	}
 
+	.about-img-cover{
+		height: 200px;
+	}
 }
 
 @media(min-width: 900px){
@@ -78,10 +81,6 @@
 		align-items: right;
 		text-align: right;
 		gap: 1em;
-	}
-
-	.about-img-cover{
-		height: 200px;
 	}
 
 	.desc-con{

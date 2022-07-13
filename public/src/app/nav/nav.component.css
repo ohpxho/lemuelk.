@@ -97,8 +97,13 @@
 		width: 100%;
 		align-items: center;
 		justify-content: center;
+		background-color: var(--clr-neutral);
 	}
 
+	.logo-con{
+		display: flex;
+	}
+	
 	.nav-list{
 		position: relative;
 		top: 0;
