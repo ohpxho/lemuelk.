@@ -84,7 +84,7 @@
 }
 
 
-@media(min-width: 375px){
+@media(max-width: 575px){
 	.logo-con{
 		grid-template-columns: repeat(3, 1fr);
 	}

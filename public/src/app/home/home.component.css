@@ -61,7 +61,7 @@
 	margin-top: 30px;
 }
 
-@media(min-width: 375px){
+@media(max-width: 575px){
 	.hm-heading-con, .hm-content-con, .hm-contact-con, .hm-cover-img-con{
 		justify-content: center;
 		align-items: center;

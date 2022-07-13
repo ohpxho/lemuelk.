@@ -55,7 +55,7 @@
 	z-index: 4;
 }
 
-@media(min-width: 375px){
+@media(max-width: 575px){
 	.nav{
 		flex-direction: column;
 		padding: 4% 4% 1%;

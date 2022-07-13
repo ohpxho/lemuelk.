@@ -179,7 +179,7 @@ div[id=contact]{
 .fs-900 { font-size: var(--fs-900); }
 .fs-200 { font-size: var(--fs-200); }
 
-@media(min-width: 375px){
+@media(max-width: 575px){
 	:root{
 		--fs-super-heading: var(--fs-700);
 		--fs-primary-heading: var(--fs-650);
