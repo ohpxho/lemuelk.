@@ -1,9 +1,27 @@
 {
   "version": 2,
   "builds": [
-    { "src": "package.json", "use": "@vercel/static-build" }
+    {
+      "src": "app.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "public/**",
+      "use": "@vercel/static-build",
+      "config": {
+        "buildCommand": "npm run build -- --output-path=./public",
+        "outputDirectory": "public"
+      }
+    }
   ],
-  "env": {
-    "NPM_RUN_START": "start"
-  }
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "app.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "public/$1"
+    }
+  ]
 }
