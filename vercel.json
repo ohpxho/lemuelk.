@@ -3,9 +3,6 @@
   "builds": [
     { "src": "package.json", "use": "@vercel/static-build" }
   ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/" }
-  ],
   "env": {
     "NPM_RUN_START": "start"
   }
