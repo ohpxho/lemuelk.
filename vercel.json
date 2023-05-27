@@ -9,7 +9,7 @@
       "src": "public/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "buildCommand": "npm run build -- --output-path=./public/dist/public",
+        "buildCommand": "npm run build --output-path=./public/dist/public",
         "outputDirectory": "public/dist/public"
       }
     }
